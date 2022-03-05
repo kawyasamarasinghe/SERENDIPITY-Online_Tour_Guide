@@ -1,0 +1,37 @@
+body{
+    color: rgb(255, 255, 255);
+    background-image: url("images/land\ \(2\).jpg");
+    background-size: cover;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.border{
+    background-color: rgb(0, 0, 0);
+    height: 550px;
+    width: 600px;
+    top: 150px;
+    margin-left: 475px;
+    padding:30px ;
+    position: relative;
+	box-shadow: 8px 8px 50px #000;
+	opacity:1;
+    border-radius: 25px;
+}
+.submitcss , .reset{
+    background-color: rgb(13, 183, 212);
+    color: white;
+    position: relative;
+    top: 10px;
+    padding: 10px 100px 10px 100px;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.back{
+    background-color: rgb(13, 183, 212);
+    color: white;
+    position: relative;
+    top: 10px;
+    padding: 10px 100px 10px 100px;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

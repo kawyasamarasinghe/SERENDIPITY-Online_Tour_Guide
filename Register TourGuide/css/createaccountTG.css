@@ -1,0 +1,89 @@
+body{
+    background-image: url("../Images/cover.jpg");
+    background-clip: cover;
+    background-repeat: no-repeat;
+}
+#content
+{
+    margin-top: 25px;
+}
+#CAbg
+{
+    background-image:url("../Images/cover.jpg");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: cover;
+    backface-visibility: hidden;
+}
+.CAheaders
+{
+    color: mintcream;
+    padding-left: 25px;
+
+}
+.CAcont
+{
+    background-color: rgb(250, 250, 250, 0.7);
+    border-radius: 10px;
+    display: block;
+    width: 750px;
+    font-size: 17px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.CAbtn
+{
+    position: relative;
+    background-color: #3af2f8;
+    border: none;
+    font-size: 15px;
+    color: #030303;
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 15px;
+    border-style:outset;
+    border-color: rgb(255, 255, 255);
+    box-shadow: rgb(0, 0, 0);
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.CAbtn:after
+{
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+.CAbtn:active::after
+{
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s;
+}
+.CAbtn:hover
+{
+    background-color:goldenrod;
+    color: honeydew;
+
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}  
+input
+{
+    font-family:Arial, Helvetica, sans-serif;
+}

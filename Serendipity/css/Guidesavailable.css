@@ -1,0 +1,117 @@
+
+body{
+    background-image:url("../Images/nature-3824498_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.header {
+    position: relative;
+    color: rgb(255, 255, 255);
+    padding:15px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 3%;
+    padding-top: 1%;
+}
+
+
+.holdingcontainer {
+    max-width:900px;
+    display:flex;
+    background:transparent;
+    box-sizing: border-box;
+    flex-direction: row;
+    margin:auto;
+}
+.internalcontainerL {
+    flex:1;
+    background:rgb(211, 221, 211);
+    padding:30px;
+    font-size:12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:30px;
+    border-radius: 8px;
+}
+.internalcontainerM {
+    flex:1;
+    background:rgb(211, 221, 211);
+    padding:30px;
+    font-size:12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:30px;
+    border-radius: 8px;
+}
+.internalcontainerR {
+    flex:1;
+    background:rgb(211, 221, 211);
+    padding:30px;
+    font-size:12px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:30px;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 768px){
+   .holdingcontainer {
+       flex-direction:column;
+   } 
+}
+.image {
+    width:100%;
+}
+.pagination {
+    
+    font-size:25px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.button {
+    border:1px solid black;
+    color:none;
+    font-style: oblique;
+    padding-top:5px;
+    padding-right: 8px;
+    font-size: 12px;
+    cursor: pointer;
+    float: right;
+    margin-right: 6px;
+    
+}
+#book
+{
+    background-color: goldenrod;
+    border:azure;
+    color: rgb(0, 0, 0);
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    border-radius: 25px;
+    border-style: groove;
+}
+#book:hover
+{
+    background-color:rgb(131, 10, 10);
+    color: rgb(255, 255, 255);
+}
+#b
+{
+    background-color: goldenrod;
+    border:azure;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    border-radius: 25px;
+    border-style: groove;
+}
+#b:hover
+{
+    background-color:rgb(53, 78, 218);
+    color: rgb(255, 255, 255);
+}

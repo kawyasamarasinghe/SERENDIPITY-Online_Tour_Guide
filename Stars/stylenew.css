@@ -1,0 +1,68 @@
+
+.about h1{
+    text-align: center;
+    color: rgb(22, 21, 21);
+}
+.table1{
+    padding-left: 30px;
+    padding-right: 50px;
+}
+.para1,.para3 {
+    padding-right: 50px;   
+    
+}
+.para1,.para3,.para2 p {
+    text-align: justify;
+   
+}
+.para2{
+    text-align: justify;
+    padding-right: 100px;
+    padding-left: 100px;
+    color: black;
+    
+}
+.table2{
+    padding-left: 1000px;
+   
+}
+
+.table2 table{
+    width: 350px;
+    border: solid 2px;
+}
+.table2 form{
+    
+    padding-left: 40px;
+}
+.table3{
+    text-align: center;
+}
+
+.row .table2{
+    padding-left: 100px;
+}
+.rating{
+    text-align: center;
+
+}
+
+.buttons{
+    padding-left: 30px;
+}
+
+.rateyo{
+    padding-left: 100px;
+}
+.result{
+    padding-left: 20px;
+}
+.Team{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    background-color:rgb(122, 115, 17);
+}
+.Team p{
+    text-align: justify;
+}

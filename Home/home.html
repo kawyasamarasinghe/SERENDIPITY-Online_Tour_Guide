@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<link rel="stylesheet" href="css/home.css">
+        <!--<link rel="stylesheet" href="css\header(css).css">-->
+      
+        <link rel="stylesheet" href="css/header(css).css">
+        <link rel="stylesheet" href="css/footer(css).css">
+        
+    </head>
+    <body bgcolor="black">
+
+   <!--NAVIGATION BAR--> 
+   <div>
+    <div class="fdiv">
+
+    </div>
+    <!--NAVIGATION BAR-->
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+        <div class="btn ">
+            <a href="../pageselect/registerSelector.html"><button class="button1" name="btn1 "><b>Register</b></button></a>
+            <a href="../pageselect/LoginSelector.html"><button class="button1" name="btn1 "><b>Login</b></button></a>
+        
+        </div>
+        <a class="log" href="../Home/home.html"><img id="logo" src="../pageselect/Images/logo.jpg" alt="logo"></a>
+
+        <ul class="nav-ul">
+          <li><a id="nav"  href="../Home/home.html">Home</a></li>
+          <li><a id="nav" href="../Stars/AboutUs.php">About Us</a></li>
+          <li><a id="nav" href="../Contact/php/send.php">Contact Us</a></li>
+          <li><a id="nav" href="../Packages/Packages.html">Packages</a></li>
+          <li><a id="nav" href="https://edition.cnn.com/">News</a></li>
+          <li><a id="nav" href="https://www.google.com/">Search</a></li>
+      </ul>
+
+    </nav>
+  </div>
+<center>
+      <div class="container">
+        <div class="slider">	 
+            <div class="slideshow-container">
+
+
+
+                <div class="mySlides fade">
+                  
+                  <img src="images/slider/slider1 fall 8 4.jpeg" style="width:100%; height:600px;">
+                  
+                </div>
+                
+                <div class="mySlides fade">
+                  
+                  <img src="images/slider/slider2 iffel 8 4.jpeg" style="width:100%; height:600px;">
+                  
+                </div>
+                <div class="mySlides fade">
+                    
+                    <img src="images/slider/slider3 building 8 4.jpeg" style="width:100%;height:600px;">
+                   
+                </div>
+            </div>
+                <br>
+                
+                <div>
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+                </div>
+                
+                <script>
+                var slideIndex = 0;
+                showSlides();
+                
+                function showSlides() {
+                  var i;
+                  var slides = document.getElementsByClassName("mySlides");
+                  var dots = document.getElementsByClassName("dot");
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                  }
+                  slideIndex++;
+                  if (slideIndex > slides.length) {slideIndex = 1}    
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " active";
+                  setTimeout(showSlides, 2000); // Change image every 2 seconds
+                }
+                </script>
+                
+<!--cat-->  <br><br>
+            
+            <div class="text-box">
+
+                <select name="destination" id="destination" onchange="window.open(this.options[this.selectedIndex].value,'_blank')" style="background-color:silver; color:black; padding:20px; width: 25%; font-size: 20px; border-radius: 25px; margin-left: 10px;">
+                    <option value='none'selected>Choose a country</option>
+                   
+                    <option value="../Countries/Sri Lanka.html">Sri Lanka</option>
+                    <option value="../Countries/New Zealand.html">New Zealand</option>
+                    <option value="../Countries/Dubai.html">Dubai</option>
+                    <option value="../Countries/Italy.html">Italy</option>
+                    <option value="../Countries/Brazil.html">Brazil</option>
+                </select>
+            </div>
+          </center>
+        </div>
+      </div>
+       
+
+<!--second css-->
+	
+      
+ 
+        <div class="expr" style="margin-left: 120px;" >
+            <br><br>
+       
+            <div class="experiences">
+              <div class="box">
+                <div class="img1"> <img src="images/pixel/H1lake.jpg" alter="picture" height="380px" width="350px">
+                </div>
+                  <!--<div class="overlay"></div>-->
+                <div class="overlay2">
+                </div>
+                  <div class="text">
+              
+                    <h2>New Zealand</h2>
+                    <br><br>
+                    <p>Explore the stunning natural beauty in New Zealand. The land of the long white cloud, New Zealand is famous for its breathtaking landscapes, from lofty mountain peaks and glaciers to mesmerizing blue lakes.  </p>
+                  </div>
+              </div>
+            
+            <div class="box">
+                <div class="img2"><img src="images/H4England.jpg" alter="picture" height="380" width="350px">
+                </div>
+              
+                <div class="overlay2">
+
+                </div>
+                <div class="text">
+                
+                <h2>Brazil</h2>
+                <br><br>
+                <p>Brazil is the only country in South America that speaks Portuguese. Brazil contains almost 60 percent of the Amazon rain forest.Brazil has the world's largest beach at 24,606 feet long. It is the longest country in the world from north to south via land, spanning approximately 2,800 miles </p>
+                </div>
+                </div>
+            <div class="box">
+                <div class="img3"><img src="images/pixel/H3lake.jpg" alter="picture" height="380" width="350px"> 
+                </div>
+                
+                <div class="overlay2">
+
+                </div>
+                <div class="text">
+                
+                <h2>Sri Lanka</h2>
+                <br><br>
+                <p>Sri Lanka is a beautiful, exotic destination full of culture, nature, wildlife, and smiling faces. For a country with such a great history, the island is actually home to some of the friendliest people out there.</p>
+                </div>
+            </div>
+        </div>
+        
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+   <div class="experiences">
+    <div class="box">
+        <div class="img1"> <img src="images/H2rio.jpg" alter="picture" height="380" width="350px">
+        </div>
+        
+        <div class="overlay2">
+        </div>  
+        
+        <div class="text">
+    
+        <h2>England</h2>
+        <br><br>
+        <p>England is famous for its long history, and also it is famous for its Royal Family. Stonehenge is one of the wonders of the world.</p>
+        </div>
+    </div>
+    <div class="box">
+        <div class="img2"><img src="images/dubai-city.jpg" alter="picture" height="380" width="350px"></div>
+      
+        <div class="overlay2"></div>
+        <div class="text">
+       
+        <h2>Dubai</h2>
+        <br><br>
+        <p> Dubai is one of the world's most unique cities. And this comes from the amazing landscapes made up of palm-shaped islands and some of the tallest buildings in the world.  </p>
+    </div>
+    </div>
+    <div class="box">
+        <div class="img3"><img src="images/italy.jpg" alter="picture" height="380" width="350px"> </div>
+      
+        <div class="overlay2"></div>
+        <div class="text">
+      
+        <h2>Italy</h2>
+        <br><br>
+        <p>Italy is famous for its huge contributions to the worlds of art, architecture, fashion, opera, literature, design, and it has world famous and amayzing places to visit.</p>
+        </div>
+    </div>
+   </div>
+  </div>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div id="footer1">
+  <!--  <p><span id="supe1">SUPERNIC AUDIO</span></p> -->
+  <p class="add"><span class="sp">Our Destinations</span><br/><br/><a class="foot" href="../Countries/Sri Lanka.html">Sri Lanka</a><br/><a class="foot" href="../Countries/Italy.html">Italy</a><br/><a class="foot" href="../Countries/Brazil.html">Brazil</a>
+      <br><a class="foot" href="../Countries/New Zealand.html">New Zealand</a><br><a class="foot" href="../Countries/Dubai.html">Dubai</a><br> </p>
+
+      <p class="add"><span class="sp">Categories</span><br/><br/><a class="foot" href="https://www.internationaltraveller.com/world/worlds-absolute-must-do-festivals/">Events</a><br/><a class="foot" href="../Gallery/galllery.html">Gallery</a><br/><a class="foot" href="../Stars/AboutUs.php">Ratings</a><br/><a class="foot" href="../Serendipity/Guideavailable.php">Featured</a><br/><a class="foot" href="../Contact/php/Previous_ex.php">Feedback</a> 
+      </p>
+    
+      <p class="add"><span class="sp">Serendipity</span><br/><br/><a class="foot" href="../Stars/AboutUs.php">About Us</a> <br><a class="foot" href="../Packages/Packages.html">Explore</a><br/><a class="foot" href="../Contact/php/send.php">Contact Us</a><br/><a class="foot" href="../Gallery/ppolicy.html">Security and Safety</a>
+          <br/><a class="foot" href="../Gallery/ppolicy.html">Privacy Policy</a></p>
+      <!--  <p class="a"><span class="flo" >FOLLOW US</span> </p><br/>-->
+    
+    
+      <div class="f-logo">
+         <a href="../Home/home.html"> <img id="f-logo" src="../pageselect/Images/logo.jpg" alt="f_logo"></a>
+      </div>
+    </div>
+
+ 
+  </body>
+</html>

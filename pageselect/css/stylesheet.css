@@ -1,0 +1,53 @@
+#selectBG
+{
+    background-size: cover;
+    background-image: url("../Images/view-2546328_1280.png");
+   
+   
+}
+#cont
+{
+    width:1200px;
+    height:relative;
+    background-color: hsl(208, 100%, 97%,0.7);
+    border-radius: 10px;
+    
+
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .column
+   {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 350px; 
+    
+  }
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+ 
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  .col
+  {
+      text-decoration: none;
+      color: black;
+      font-size: 35px;
+  }
+.col:hover
+{
+    color: rgb(255, 6, 6);
+    transition: 0.3s;
+}

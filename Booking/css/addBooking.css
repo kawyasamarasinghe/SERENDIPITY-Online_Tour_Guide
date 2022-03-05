@@ -1,0 +1,82 @@
+.bookingCont
+{
+    width:750px;
+    height: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50px;
+}
+#bookingBG
+{
+    background-image: url("../Images/book-863418_1920.jpg");
+    background-size: cover;
+}
+.btn1
+{
+    position: relative;
+    background-color: #ffbb00;
+    border: none;
+    font-size: 15px;
+    color: #030303;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 15px;
+    border-style:outset;
+    border-color: rgb(255, 255, 255);
+    box-shadow: rgb(0, 0, 0);
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.btn1:after
+{
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+.btn1:active::after
+{
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s;
+}
+.btn1:hover
+{
+    background-color:rgb(255, 0, 0);
+    color: honeydew;
+
+}
+#del
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#book
+{
+    background-color: goldenrod;
+    border:azure;
+    color: rgb(0, 0, 0);
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    border-radius: 25px;
+    border-style: groove;
+}
+#book:hover
+{
+    background-color:rgb(150, 7, 7);
+    color: goldenrod;
+}

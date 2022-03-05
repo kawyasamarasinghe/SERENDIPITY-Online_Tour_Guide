@@ -1,0 +1,36 @@
+body{
+    color: honeydew;
+    background-image: url("images/land\ \(3\).jpg");
+}
+.deleteACC{
+    background-color: rgb(0, 0, 0);
+    height: 300px;
+    width: 600px;
+    position: relative;
+    top: 100px;
+    padding:50px 30px;
+    position: relative;
+	box-shadow: 8px 8px 50px #000;
+	opacity:1;
+    border-radius: 25px;
+}
+.submit, .reset{
+    background-color: rgb(116, 116, 148);
+    color: white;
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+    padding: 10px;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.back{
+    background-color: rgb(116, 116, 148);
+    color: white;
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+    padding: 10px;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

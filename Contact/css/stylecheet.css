@@ -1,0 +1,24 @@
+#loginbodyAdmin
+{
+    background-image: url("../Images/admin cover.jpg");
+    
+}
+.entry
+{
+    background-color:rgb(12, 93, 168);
+    border: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    height:40px;
+    width:100px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.entry:hover
+{
+    background-color: #ff0800;
+    color: white;
+}

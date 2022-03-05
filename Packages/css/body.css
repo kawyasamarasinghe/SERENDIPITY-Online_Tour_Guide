@@ -1,0 +1,64 @@
+#pkbg
+{
+    background-image: url("../Images/yellow.jpg");
+    background-size: cover;
+}
+.pkg
+{
+    width:275px;
+    height: 50px;;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: bold;
+    background-color:cornsilk;
+    border-radius: 20px;
+    border-color: gold;
+    
+}
+.text1
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+button:hover
+{
+    background-color: goldenrod;
+    color: ghostwhite;
+    transition: 0.3s;
+}
+#image1
+{
+    border-radius: 25px;
+    box-shadow: 8px 8px 50px rgb(117, 117, 117);
+    
+}
+.view
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+.view:hover
+{
+    color: crimson;
+    transition: 0.2s;
+}
+.pkgs
+{
+    background-color: goldenrod;
+    border:azure;
+    color: rgb(0, 0, 0);
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    border-radius: 25px;
+    border-style: groove;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+.pkgs:hover
+{
+    background-color:black;
+    color: goldenrod;
+}
